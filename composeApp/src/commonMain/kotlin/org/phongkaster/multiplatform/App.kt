@@ -19,6 +19,19 @@ import org.jetbrains.compose.ui.tooling.preview.Preview
 import compose_multiplatform.composeapp.generated.resources.Res
 import compose_multiplatform.composeapp.generated.resources.compose_multiplatform
 
+/**
+ * commonMain → contains code shared across all platforms (business logic, data models, repository, utils, …).
+ *
+ * androidMain → Android-specific code (e.g., SharedPreferences, Android Log, Room database).
+ *
+ * desktopMain → Desktop-specific code (e.g., using the JVM file system).
+ *
+ * iosMain → iOS-specific code (e.g., UserDefaults, NSLog).
+ *
+ * wasmJsMain → code for WebAssembly running in the browser.
+ *
+ * commonTest and other test source sets → contain unit tests.
+ */
 @Composable
 @Preview
 fun App() {
