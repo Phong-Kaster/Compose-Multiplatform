@@ -1,0 +1,49 @@
+{
+  "formatVersion": 1,
+  "database": {
+    "version": 1,
+    "identityHash": "b15f29043d2b1f19990c70295cecfcfc",
+    "entities": [
+      {
+        "tableName": "table_symptom_diary",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`epochDay` INTEGER NOT NULL, `weight` TEXT NOT NULL, `body_temperature` TEXT NOT NULL, `list_of_symptom` TEXT NOT NULL, PRIMARY KEY(`epochDay`))",
+        "fields": [
+          {
+            "fieldPath": "epochDay",
+            "columnName": "epochDay",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "weight",
+            "columnName": "weight",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "bodyTemperature",
+            "columnName": "body_temperature",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "listOfSymptom",
+            "columnName": "list_of_symptom",
+            "affinity": "TEXT",
+            "notNull": true
+          }
+        ],
+        "primaryKey": {
+          "autoGenerate": false,
+          "columnNames": [
+            "epochDay"
+          ]
+        }
+      }
+    ],
+    "setupQueries": [
+      "CREATE TABLE IF NOT EXISTS room_master_table (id INTEGER PRIMARY KEY,identity_hash TEXT)",
+      "INSERT OR REPLACE INTO room_master_table (id,identity_hash) VALUES(42, 'b15f29043d2b1f19990c70295cecfcfc')"
+    ]
+  }
+}

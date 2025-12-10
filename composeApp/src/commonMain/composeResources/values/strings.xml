@@ -1,0 +1,677 @@
+<resources>
+    <string name="app_name" translatable="false">Olyn Period</string>
+    <string name="olyn" translatable="false">Olyn</string>
+    <string name="facebook_app_id" translatable="false">3509746579285077</string>
+    <string name="facebook_client_token" translatable="false">7f99f6dd03eb00aad32b7d75e7449b36</string>
+
+    <string name="source_health_matters" translatable="false">Health Matters</string>
+    <string name="source_health_matters_link" translatable="false">https://healthmatters.nyp.org/</string>
+    <string name="source_oash" translatable="false">OASH Office on Women\’s Health</string>
+    <string name="source_oash_link" translatable="false">https://womenshealth.gov/</string>
+    <string name="source_nhs" translatable="false">NHS</string>
+    <string name="source_nhs_link" translatable="false">https://www.nhs.uk/about-us/</string>
+    <string name="source_cleveland_clinic" translatable="false">Cleveland Clinic</string>
+    <string name="source_cleveland_clinic_link" translatable="false">https://my.clevelandclinic.org/</string>
+    <string name="source_harvard_health" translatable="false">Harvard T.H.Chan School of Public Health</string>
+    <string name="source_harvard_health_link" translatable="false">https://hsph.harvard.edu/</string>
+    <string name="source_utah" translatable="false">Health University of UTAH</string>
+    <string name="source_utah_link" translatable="false">https://healthcare.utah.edu/</string>
+    <string name="source_forbes" translatable="false">Forbes</string>
+    <string name="source_forbes_link" translatable="false">https://www.forbes.com/</string>
+    <string name="source_obria" translatable="false">Obria Medical Clinics</string>
+    <string name="source_obria_link" translatable="false">https://obria.org/</string>
+    <string name="source_health_woman" translatable="false">Healthy Woman</string>
+    <string name="source_health_woman_link" translatable="false">https://www.healthywomen.org/</string>
+    <string name="source_your_fertility" translatable="false">Your Fertility</string>
+    <string name="source_your_fertility_link" translatable="false">https://www.yourfertility.org.au//</string>
+    <string name="source_ella_one" translatable="false">EllaOne</string>
+    <string name="source_ella_one_link" translatable="false">https://www.ellaone.co.uk/</string>
+
+    <!-- Cycle Definition -->
+    <string name="cycle_definition_1_content">Cycle syncing involves being aware of the different phases of your cycle, and adjusting your lifestyle, such as diet, exercise, and sleep habits, to support your body during each phase.
+        \n\nThe average menstrual cycle is about 28 days (but can range from 21 to 35 days) and is divided into four phases: the menstrual phase, the follicular phase, the ovulatory phase, and the luteal phase.
+        \n\n<b>Menstrual Phase (Days 1-5)</b>
+        \nThe cycle begins with the menstrual phase, which starts on the first day of your period and typically lasts about five days on average. When an egg from your previous cycle isn’t fertilized, the lining of the uterus is shed as blood (causing your period).
+        \n\n<b>Follicular Phase (Days 1-14)</b>
+        \nThe follicular phase overlaps with the menstrual phase, also starting on the first day of your period and ends when you begin ovulating, usually lasting about 10 to 14 days. During this phase, the uterine lining thickens, and the follicles in your ovaries grow and develop. One of these follicles will eventually produce a mature egg, which will lead to ovulation.
+        \n\n<b>Ovulatory Phase (Days 14-17)</b>
+        \nThe ovulatory phase lasts about 1 to 2 days, about halfway through your cycle. During ovulation, the mature egg is released from your ovary; this is the point in your cycle when you can become pregnant, and the window for conception lasts about 24 hours.
+        \n\n<b>Luteal Phase (Days 15-28)</b>
+        \nAfter ovulation, the luteal phase begins. In this phase, the egg travels through the fallopian tubes to the uterus. If it becomes fertilized by sperm, it may attach to the uterine lining, and pregnancy begins. If pregnancy does not occur, estrogen and progesterone levels (which peak in the early part of the luteal phase) begin to drop, and the cycle will start over from the beginning, with menstruation.
+    </string>
+    <string name="cycle_definition_2_content">
+        Some women report low energy levels during their period, while other women have more energy than usual during this time. Changing hormone levels through the menstrual cycle may be the cause.
+        \n\n<b>Week 1:</b> On the first day of your period, estrogen and progesterone levels are at their lowest. But they begin a gradual rise during your period. It may be easier to get active than in the previous weeks.
+        \n\n<b>Week 2:</b> In the week after your period ends, your energy levels might begin to go up. Estrogen levels begin rising quickly in preparation for ovulation (releasing an egg from the ovary).
+        \n\n<b>Week 3:</b> Estrogen levels peak around the time of ovulation, about two weeks before the next period for most women. When estrogen levels fall quickly after ovulation and progesterone levels begin rising, you may feel more tired or sluggish than usual. This does not mean that you should not exercise. In fact, being active might help boost your mood and give you more energy. Try exercising first thing in the morning, before your energy level goes down as the day goes on.
+        \n\n<b>Week 4:</b> In the week before your next period, you may feel less energy as both estrogen and progesterone levels are falling (if you are not pregnant). Physical activity may help premenstrual symptoms (PMS) get better even if your energy levels are low.
+        \n\nTry keeping a fitness journal to track your menstrual cycle and your energy levels during each workout. After a few months, you should be able to see when you have more or less energy during your cycle.
+        \n\nIf you take hormonal birth control, like the pill, patch, shot, or vaginal ring, your energy levels may still go up and down with your cycle, but the differences may not be as noticeable.
+    </string>
+    <string name="cycle_definition_3_content">
+        The average age for a girl in the United States to get her first period is 12. This does not mean that all girls start at the same age.
+        \n\nA girl may start her period anytime between 8 and 15. The first period normally starts about two years after breasts first start to develop and pubic hair begins to grow. The age at which a girl’s mother started her period can help predict when a girl may start her period.
+        \n\nA girl should see her doctor if:
+        \n\nShe starts her period before age 8.
+        \n\nShe has not had her first period by age 15.
+        \n\nShe has not had her first period within three years of breast growth.
+    </string>
+    <string name="cycle_definition_4_content">
+        On average, women get a period for about 40 years of their life. Most women have regular periods until perimenopause, the time when your body begins the change to menopause. Perimenopause, or transition to menopause, may take a few years. During this time, your period may not come regularly. Menopause happens when you have not had a period for 12 months in a row. For most women, this happens between the ages of 45 and 55. The average age of menopause in the United States is 52.
+        \n\nDuring this time, your period may not come regularly. Menopause happens when you have not had a period for 12 months in a row. For most women, this happens between the ages of 45 and 55. The average age of menopause in the United States is 52.
+        \n\nPeriods also stop during pregnancy and may not come back right away if you breastfeed.
+        \n\nBut if you don’t have a period for 90 days (three months), and you are not pregnant or breastfeeding, talk to your doctor or nurse. Your doctor will check for pregnancy or a health problem that can cause periods to stop or become irregular.
+    </string>
+    <string name="cycle_definition_5_content">
+        You can keep track of your menstrual cycle by marking the day you start your period on a calendar. After a few months, you can begin to see if your periods are regular or if your cycles are different each month.
+        \n\n<b>You may want to track:</b>
+        \n\n1. Premenstrual syndrome (PMS) symptoms: Did you have cramping, headaches, moodiness, forgetfulness, bloating, or breast tenderness?
+        \n\n2. When your bleeding begins: Was it earlier or later than expected?
+        \n\n3. How heavy the bleeding was on your heaviest days: Was the bleeding heavier or lighter than usual? How many pads or tampons did you use?
+        \n\n4. Period symptoms: Did you have pain or bleeding on any days that caused you to miss work or school?
+        \n\n5. How many days your period lasted: Was your period shorter or longer than the month before?
+        \n\nYou can also download apps (sometimes for free) for your phone to track your periods. Some include features to track your PMS symptoms, energy and activity levels, and more.
+    </string>
+    <string name="cycle_definition_6_content">
+        Your cycles may change in different ways as you get older. Often, periods are heavier when you are younger (in your teens) and usually get lighter in your 20s and 30s. This is normal.
+        \n\nFor a few years after your first period, menstrual cycles longer than 38 days are common. Girls usually get more regular cycles within three years of starting their periods. If longer or irregular cycles last beyond that, see your doctor or nurse to rule out a health problem, such as polycystic ovary syndrome (PCOS).
+        \n\nIn your 20s and 30s, your cycles are usually regular and can last anywhere from 24 to 38 days.
+        \n\nIn your 40s, as your body starts the transition to menopause, your cycles might become irregular. Your menstrual periods might stop for a month or a few months and then start again. They also might be shorter or last longer than usual, or be lighter or heavier than normal.
+        \n\nTalk to your doctor or nurse if you have menstrual cycles that are longer than 38 days or shorter than 24 days, or if you are worried about your menstrual cycle.
+    </string>
+    <string name="cycle_definition_7_content">
+        Most women experience mild symptoms before and during menstruation, while others have more severe symptoms.
+\n\nTracking your period through menstrual cycle tracking apps allows you to log details about your menstrual cycle, including period dates, blood flow, and symptoms such as mood, food cravings, headaches, acne, or cramps.
+\n\nHere are some benefits of tracking your period:
+\n\nCycle Tracking helps you understand your bleeding patterns: On average, a person may experience their period after a 21 to 35-day cycle, but that does not mean that everyone falls into this range. Tracking your period helps you understand your average cycle length, which will alert you to your next cycle.
+\n\nCycle Tracking provides insight into your health and wellness: Sometimes, you may experience heavy periods or notice that your period pattern has become irregular. This may suggest a possible underlying condition or may help identify a significant change in your lifestyle. Logging your period and the symptoms you experience will help you recall these events when you talk with your health care provider.
+\n\nTracking your period is a way of learning about your body and health. Contributing accurate menstrual cycle data via an app greatly improves our research on menstrual cycles and will lead to impactful scientific insights in menstrual cycle health.
+    </string>
+
+    <string name="cycle_definition_1_title">Your Period Uncovered: Amazing Body Changes</string>
+    <string name="cycle_definition_2_title">Energy Killer or Secret Power-Up?</string>
+    <string name="cycle_definition_3_title">When does a girl usually get her first period?</string>
+    <string name="cycle_definition_4_title">How Many Years Do Periods Last?</string>
+    <string name="cycle_definition_5_title">Easy Ways to Track Your Cycle</string>
+    <string name="cycle_definition_6_title">Your Cycle, Your Age: What Changes?</string>
+    <string name="cycle_definition_7_title">Why is Tracking Your Period Important?</string>
+
+    <!-- Menstrual Phase -->
+    <string name="menstrual_phase_1_content">
+        Period pain usually happens to women around the start of their period. It can affect anyone who has periods.It\'s usually caused by the womb contracting to push out the blood.
+        \n\nYou may have period pain if:
+        \n - You have pain in your tummy at the start of your period, or several days before your period
+        \n - You have painful cramps in your tummy that spread to your back and thighs
+        \n - You have a sharp pain or a dull ache in your tummy
+        \n\nPeriod pain usually lasts for up to 3 days and can affect your daily activities.
+        \n\nExercise may help relieve the pain, as well as taking over-the-counter painkillers, such as paracetamol, ibuprofen and aspirin.
+        \n\nHowever, do not take ibuprofen or aspirin if you have asthma or stomach, heart, kidney or liver problems. Aspirin should not be taken by anyone under 16 years of age.
+        \n\nHormonal contraception (such as the combined contraceptive pill, the intrauterine system (IUS), the contraceptive patch or the contraceptive injection) can reduce period pain.
+    </string>
+    <string name="menstrual_phase_2_content">
+        Irregular periods are not usually a sign of a problem. But speak to a General Practitioner (GP) if your periods are irregular or your normal pattern of periods changes.
+        \n\n<b>Check if you have irregular periods</b>
+        \nThe average gap between periods starting (the menstrual cycle) is around 28 days. It can sometimes be a bit shorter or longer. A woman\'s periods are irregular if the gap between them is less than 21 days or more than 35 days. Irregular periods can affect anyone who has periods.
+        \n\nIt\'s more likely for your periods to be irregular when they first start during puberty, and when you\'re nearing menopause.
+        \n\n<b>Keeping track of your periods</b>
+        \nUsing an app or a diary to keep track of your periods can help you see if they\'re irregular.
+        \nDay 1 of your menstrual cycle is the first day of your period. The last day of your cycle is the day before your next period.
+        \n\n<b>Causes of irregular periods</b>
+        \nCommon causes of irregular periods include:
+        \n - Puberty, when you start your periods
+        \n - The start of menopause (usually between the ages of 45 and 55)
+        \n - Pregnancy – a missed period is often an early sign of pregnancy
+        \n - Hormonal contraception like the progestogen-only pill, contraceptive injection and intrauterine system (IUS)
+        \n - Losing or gaining a lot of weight
+        \n - Stress and anxiety
+        \n - Exercising too much
+        \nSometimes, conditions like polycystic ovary syndrome (PCOS) and an underactive thyroid gland can cause irregular periods.
+        \n\n<b>Treatments for irregular periods</b>
+        \nTreatment is not always needed for irregular periods.
+        \nYou need to see a GP if:
+        \n - Your periods are irregular
+        \n - Your periods last longer than 7 days
+        \n - You have irregular periods and other symptoms like weight gain, tiredness, hair growth on your face and dry or oily skin
+        \n - Your periods are irregular and you\'re struggling to get pregnant
+        \n\n<b>Trying for a baby</b>
+        \nGetting pregnant can be more difficult if you have irregular periods because you might not release an egg (ovulate) regularly.
+        \n\nIt can help to have sex every 2 or 3 days throughout your cycle without using contraception.
+        \n\nIf you\'re struggling to get pregnant, hormone medicine or fertility treatment may be recommended.
+    </string>
+    <string name="menstrual_phase_3_content">
+        Some women naturally have heavier periods than others, but if your periods are so heavy that they impact your life, there is help available.
+        \n\n<b>Heavy periods are where you:</b>
+        \n - Need to change your pad or tampon every 1 to 2 hours, or empty your menstrual cup more often than is recommended
+        \n - Need to use 2 types of period product together, such as a pad and a tampon
+        \n - Have periods lasting more than 7 days
+        \n - Pass blood clots larger than about 2.5cm (the size of a 10p coin)
+        \n - Bleed through to your clothes or bedding
+        \n - Avoid daily activities, like exercise, or take time off work because of your periods
+        \n - Feel tired or short of breath a lot
+        \n\n<b>Causes of heavy periods</b>
+        \nThey can sometimes be heavy at different times, like when you first start your periods, after pregnancy or approaching menopause.
+        \n\nSometimes heavy periods can be caused by:
+        \n - Conditions affecting your womb or ovaries, such as polycystic ovary syndrome, fibroids, endometriosis, adenomyosis and pelvic inflammatory disease
+        \n - Conditions that can make you bleed more easily, such as Von Willebrand disease medicines and treatments, including some anticoagulant medicines and chemotherapy medicines
+        \n - Some medicines and treatments, including some anticoagulant medicines and chemotherapy medicines
+        \n\n<b>See a GP if:</b>
+        \n - Heavy periods are affecting your life
+        \n - You\'ve had heavy periods for some time
+        \n - You have severe pain during your periods
+        \n - You bleed between periods or after sex
+        \n - You have heavy periods and other symptoms, such as pain when peeing, pooing or having sex
+        \n\n<b>Specialist treatments</b>
+        \nSpecialist treatments for heavy periods include:
+        \n - Removing the lining of the womb (endometrial ablation)
+        \n - Removing fibroids if it’s thought they’re causing your heavy periods
+        \n - Total or partial removal of the womb (hysterectomy)
+        \n - You may have a series of blood tests to check if you have any underlying conditions, such as iron deficiency anemia.
+    </string>
+    <string name="menstrual_phase_4_content">
+        Cramping, fatigue and irritability are common period symptoms. You may turn to sweets, pizza and chips for comfort. But eating these foods during your period can throw your hormones out of balance and rob you of important nutrients.
+        \nFoods to eat during the menstrual phase include:
+        \n - Iron-rich foods can replace iron lost from bleeding. Examples include green leafy vegetables, lean red meat, lentils and beans.
+        \n - Vitamin C increases iron absorption. Citrus fruits, berries, broccoli and red peppers are good sources of vitamin C.
+        \n - Vitamin K can reduce heavy bleeding. Choose leafy greens, blueberries, cheese and eggs.
+        \n - Omega-3 fatty acids reduce inflammation and cramping. Foods that contain omega-3 fatty acids include salmon, flaxseed and tree nuts.
+    </string>
+    <string name="menstrual_phase_5_content">
+        Menstrual cramps seem to be a uniquely human problem, well female human problem. Of course, part of that is because only primates have a menstrual cycle.
+\n\nAbout two weeks after ovulation if we don\'t become pregnant, the hormones from the ovary that would have supported an early pregnancy, progesterone or pregnancy, starts to fall and the uterus makes another local hormone called prostaglandins that causes the uterus to cramp, the blood vessels to constrict, and push out the old uterine lining to make way for the new with a bunch of blood that doesn\'t really seem necessary.
+\n\nA hot but not too hot water bottle on your lower abdomen can be soothing or on your back if you primarily feel the cramps in your back.
+\n\nWell, what else right now? Well, believe it or not, exercise helps period cramps. Get out and move. A vigorous walk or ride or jog actually decreases the perception of menstrual pain for many women. Of course, if you never do these things, doing them now could be more painful but it will distract you from your cramps.
+\n\nFor women who have menstrual periods regularly, there are some habits that may decrease your pain. Some studies have found that decreasing fat in the diet significantly decreases fat and particularly animal fat can lead to less painful periods. It won\'t work for you today, but it could be helpful for your next period.
+\n\nA Danish study found that fish oil in combination with vitamin B12 worked better than other oils or placebo So all of the recommendation for decreasing period cramps is to decrease that in the diet, it may be all about the kinds of fat, less omega-6 from animal and dairy fats, which are associated with inflammation and prostaglandins and more omega-3s from nuts, fish, and seeds, which are anti-inflammatory.
+    </string>
+    <string name="menstrual_phase_6_content">
+        If your periods never used to be painful when you were younger and now are increasingly painful or heavy, it\'s important to see your clinician. Some diseases in the pelvis like endometriosis or fibroids in the uterus can grow and lead to increasingly painful periods.
+\n\nIn medicine we divide painful periods into two categories — primary painful dysmenorrhea and secondary dysmenorrhea. Primary dysmenorrhea refers to the menstrual cramps that started in early teen hood, the periods were always painful. The good news about primary dysmenorrhea is it gets better as women get older or maybe we just cope with it better.
+\n\nSecondary dysmenorrhea means you didn\'t use to have cramps when you were younger and now you do. Secondary dysmenorrhea if it interferes with your daily activity, warrants a visit to your gynecologist.
+\n\nLastly if your painful periods interfere with your life and your home remedies and over the counter remedies aren\'t working, we as gynecologists have some options that are very helpful. Give us a call and thanks for joining us on The Scope.
+    </string>
+
+    <string name="menstrual_phase_1_title">Suffering Monthly? It Might Not Be ‘Just’ Cramps</string>
+    <string name="menstrual_phase_2_title">Unpredictable Cycles, Unexpected Causes</string>
+    <string name="menstrual_phase_3_title">So Much Blood—But Why?</string>
+    <string name="menstrual_phase_4_title">Best Nutrition for a Healthy Menstrual Phase</string>
+    <string name="menstrual_phase_5_title">Best Natural Ways to Relieve Period Pain</string>
+    <string name="menstrual_phase_6_title">Painful Periods: When to Seek Help</string>
+
+    <!-- Follicular Phase -->
+    <string name="follicular_phase_1_content">
+        Choose foods to support your increased energy levels. Lean proteins and complex carbohydrates, such as whole wheat, brown rice and quinoa, will fuel higher-intensity workouts.
+        \n\nAs estrogen levels rise, eat foods to help your body balance estrogen, including:
+        \n - Cruciferous vegetables, such as broccoli, cauliflower, cabbage and kale.
+        \n - Fermented foods, such as kombucha, sauerkraut and kimchi.
+        \n - Healthy fats, such as avocados, flaxseeds and pumpkin seeds.
+        \n - Leafy greens.
+    </string>
+    <string name="follicular_phase_2_content">
+        The menstrual cycle is divided into 4 phases; each relegated to specific hormonal influences. In regards to the productivity aspect of a woman\'s cycle, the best time, or the “superstar” time for a woman during her cycle would be during the follicular phase of the menstrual cycle.
+\n\nThis begins upon the beginning of your period, and lasts approximately 10-14 days." Here you have the most access to creative energy that you will have the entire month. Hormones are at a low point and your body is starting to increase estrogen in particular.
+\n\nYou are open and ready to try new things. This is a good time to start new projects at work. Plan the month ahead and do some project management. Break out the excel document and plan. Brainstorm with people in meetings. Dream big. Mastermind how you will take over the world.
+\n\nJasmine Takanikos, founder of Brand Human and Candor Branding, uses her hormonal cycles to achieve greater success and says “Because hormone health is the backbone to my health &amp; work routines I try to plan all of my public facing lectures for Brand Human during the Follicular Phase. My energy is more focused toward high energy output.”
+    </string>
+    <string name="follicular_phase_3_content">
+        Follicular Phase (Days 6-14): Build and Energize
+        \n\nAs estrogen levels rise during the follicular phase, your energy starts to increase, making it the perfect time to tackle more intense workouts. Your body is primed for muscle growth and endurance-building during this phase, so it’s a great time to push yourself with challenging workouts. Take advantage of this natural energy boost to build strength and endurance.
+        \n\n<b>Your Workouts:</b> With rising energy levels, this is the ideal time for more intense exercise. Emphasize strength training, HIIT (High-Intensity Interval Training), or other cardio workouts that challenge your muscles and endurance.
+    </string>
+
+    <string name="follicular_phase_1_title">Eating Right During the Follicular Phase: What Your Body Needs</string>
+    <string name="follicular_phase_2_title">Supercharge Your Success!</string>
+    <string name="follicular_phase_3_title">Unleash Your Strongest Workouts!</string>
+
+    <!-- Ovulatory Phase -->
+    <string name="ovulatory_phase_1_content">
+        With estrogen surging, your liver is working hard to break down the excess estrogen. Continue eating estrogen-balancing foods.
+        \n\nEating an overall healthy diet can also help give you the strength and stamina you need during this high-energy phase.
+        \n\nThe Mediterranean diet continues to be the gold standard for eating healthy because it does just that — by eating a diet full of fruits, vegetables, whole grains, fish, lean meats and olive oil, you can reap all the heart-healthy benefits.
+        \n\nLike the Mediterranean diet, the Nordic diet focuses on whole foods found in the Nordic region but touts using canola oil instead of extra-virgin olive oil, explains registered dietitian Courtney Barth, RD.
+        \n\nThe Volumetric diet is all about filling up on as many low-calorie, healthy foods as you want, says Zumpano. The results? You don’t feel as hungry as you may on other diets.
+    </string>
+    <string name="ovulatory_phase_2_content">
+        Ovulation is the process where your body releases one or more eggs from your ovaries. Just like you learned in health class, if the egg is fertilized and implants successfully, you\'re pregnant. If you miss this ovulation window, you can\'t get pregnant.
+\n\nThe two main sex hormones in women,estrogen and progesterone, can cause some crazy cool things to happen.Here are some examples of weird things that happen when you ovulate that you\'ve likely never noticed.
+\n - <b>You have a crazy sense of smell, taste or sight.</b>
+\nThat smell at the bakery is making your mouth water. For some women, heightened senses can be a sign of ovulation.
+\n - <b>Your voice gets higher.</b>
+\nSuddenly an opera singer? You unconsciously speak in a higher register when you\'re most fertile. You do that to make you sound more feminine and attractive.
+\n - <b>You may feel sexier.</b>
+\nResearch from the University of Minnesota\'s Carlson School of Management found that women were more likely to buy sexier clothing while ovulating compared to any other time of the month. This could be a subconscious effort to attract the best romantic partner, scientists say.
+    \n - <b>You start a diet.</b>
+\nDiets aren\'t just for bikini and reunion season. A study published by the National Science Foundation found that women are more motivated to lose weight around the time they\'re ovulating. Women not at their fertile time or who were on hormonal birth control showed no such monthly calorie fluctuations in the study.
+    \n - <b>You\'re more open to the idea of sexual fantasies.</b>
+    </string>
+    <string name="ovulatory_phase_3_content">
+        Ovulation pain is pelvic pain that you may have during ovulation.Ovulation pain is also called “mittelschmerz.” The term comes from the German words for “middle” and “pain.”
+\n\nYou typically feel ovulation pain in your lower abdomen and pelvic region. Most people have two ovaries, one on the left and one on the right side of the uterus. Your ovaries usually take turns ovulating. So, each ovary releases an egg every other month.
+\n\nMany people say they feel ovulation pain on just the side that’s releasing the egg. This means if the ovary on your right side is releasing the egg, you’ll feel pain on your right.
+\n\nSome people find that the pain occurs every month, regardless of which ovary releases an egg. Others may find that ovulation only hurts on one side, so their pain likely occurs every other month.
+\n\nThe pain may feel like a mild twinge, or you might have sudden, sharp pain. It usually hurts on just one side of your lower abdomen (the side that releases the egg). Some people feel pain for a few minutes, while others experience pain for the entire day. You may also experience:
+\n - Light vaginal bleeding.
+\n - Vaginal discharge that’s stretchy and clear (like egg whites).
+\n - Nausea, if the pain is bad.
+\n - Pain in your low back.
+    </string>
+    <string name="ovulatory_phase_4_content">
+        Phase 2: Ovulatory Phase (15 – 17 days)
+\n\nThe great communicator
+\n\nCommunication and collaboration skills are at the highest all month. The brain chemistry you have during this phase heightens your verbal skills. This is a great time to have important conversations. Maybe ask for that raise, plan to negotiate deals, work with your vendors.  Since you will be the most irresistible, try to plan ahead of schedule. You are a magnet
+    </string>
+
+    <string name="ovulatory_phase_1_title">Fueling Your Body the Right Way</string>
+    <string name="ovulatory_phase_2_title">Wild &amp; Weird Signs You\'re Ovulating!</string>
+    <string name="ovulatory_phase_3_title">Ovulation Cramps? Here’s Why!</string>
+    <string name="ovulatory_phase_4_title">Your Peak Communication &amp; Charisma Phase</string>
+
+    <!-- Luteal Phase -->
+    <string name="luteal_phase_1_content">
+        The luteal phase can bring on PMS, hunger and cravings. Complex carbohydrates and high-fiber foods, such as cruciferous vegetables, leafy greens and sweet potatoes, will help curb hunger.
+        \n\nIf you’re craving a sweet or salty snack, dark chocolate, fruit, nuts and seeds are good substitutes. Pumpkin seeds, which contain high amounts of magnesium, can also help reduce fluid retention.
+        \n\nAnd remember to stay hydrated. Drinking plenty of water can reduce bloating, brain fog and PMS.
+    </string>
+    <string name="luteal_phase_2_content">
+        The luteal phase represents the second half of a woman’s cycle.
+        \n\nDuring this phase progesterone levels peak, resulting in an increase in resting heart rate, and decreases in aerobic capacity and ability to tolerate heat. Exercise may feel like an uphill struggle and you will tire more quickly.
+        \n\nThe body burns more fat during the luteal phase, as the peak in oestrogen and progesterone suppress gluconeogenesis (the making of sugar from protein and fat).
+        \n\nThis increase in fat burning may seem like good news from a weight loss perspective, but it makes it harder for the body to access sugar. This means exercise will feel harder.
+        \n\nSo during this phase, the focus should be on incorporating lower-intensity cardio and strength sessions, and active recovery sessions such as walking, yoga and stretching.
+        \n\nProgesterone also breaks down muscle, so you won’t enjoy the same gains from your workouts, and recovery is slower.
+        \n\nFinally, the hormonal changes during this phase result in a shift of fluid from your blood plasma to your cells, resulting in bloating or fluid retention. Coupled with pre-menstrual symptoms such as headaches and fatigue, exercise is likely to seem harder than usual, so it’s not a time to be smashing your goals.
+    </string>
+    <string name="luteal_phase_3_content">
+        PMS is a combination of physical and emotional symptoms that many women get after ovulation and before the start of their menstrual period. Researchers think that PMS happens in the days after ovulation because estrogen and progesterone levels begin falling dramatically if you are not pregnant. PMS symptoms go away within a few days after a woman’s period starts as hormone levels begin rising again.
+\n\nSome women get their periods without any signs of PMS or only very mild symptoms. For others, PMS symptoms may be so severe that it makes it hard to do everyday activities like going to work or school. Severe PMS symptoms may be a sign of premenstrual dysphoric disorder (PMDD).
+\n\nAs many as three in four women say they get PMS symptoms at some point in their lifetime.For most women, PMS symptoms are mild.
+\n\nLess than 5% of women of childbearing age get a more severe form of PMS, called premenstrual dysphoric disorder (PMDD).
+\n\nPMS may happen more often in women who:
+\n - Have high levels of stress
+\n - Have a family history of depression
+\n - Have a personal history of either postpartum depression or depression.
+    </string>
+    <string name="luteal_phase_4_content">
+The signs that your period is coming can vary from person to person and from cycle to cycle. However, some of the most common signs are:
+\n - Cramps: Cramps are pain that typically occurs in your lower abdomen or back before or during your period.
+\n - Breast tenderness: Breast tenderness is a feeling of soreness or sensitivity in your breasts that can occur before or during your period. It is caused by hormonal fluctuations that affect your breast tissue.
+\n - Mood swings: Mood swings are sudden changes in your emotions or feelings that can occur before or during your period. They are caused by hormonal shifts that affect your brain chemistry and mood regulation. Mood swings can make you feel happy, sad, angry, anxious, irritable, or depressed without any obvious reason.
+\n - Acne: Acne is a skin condition that causes pimples, blackheads, whiteheads, or cysts on your face or body and can appear before or during your period. It is caused by hormonal changes that increase the production of oil and bacteria on your skin.
+\n - Headaches: Headaches are a type of pain that can occur in your head or neck before or during your period. They are caused by hormonal changes that affect your blood vessels and nerves.
+\n - Fatigue: Fatigue is a feeling of tiredness or lack of energy that can occur before or during your period. It is caused by hormonal changes that affect your metabolism and sleep quality.
+    </string>
+
+    <string name="luteal_phase_1_title">Best Foods for Hormonal Balance</string>
+    <string name="luteal_phase_2_title">Train Smarter, Not Harder!</string>
+    <string name="luteal_phase_3_title">PMS: Causes &amp; Who\'s at Risk</string>
+    <string name="luteal_phase_4_title">Warning Signs of Your Period</string>
+
+    <!-- Health Information -->
+    <string name="health_problem_1_content">
+        Your weight can affect all aspects of your health, including your menstrual cycle.
+        \n\nIf you are underweight, your body fat may drop so low that you stop ovulating, which could lead to irregular periods or no periods at all. Women with anorexia often have extreme weight loss below a healthy body weight. If you are not ovulating, your body is not producing normal levels of hormones like estrogen. A lack of estrogen between puberty and menopause can cause serious health problems.
+        \n\nIf you are overweight, you are more likely than women of a healthy weight to have irregular periods or no periods at all. You may also have trouble getting pregnant. Your ovaries make the hormone estrogen. Fat cells also make estrogen. As you gain weight, your fat cells grow and release more estrogen. Too much estrogen can cause your body to react as if you are taking hormonal birth control (like the pill or vaginal ring) or are already pregnant. This can prevent you from ovulating and having a monthly period.
+    </string>
+
+    <string name="health_problem_1_title">The Impact of Weight Changes on Your Period </string>
+
+    <!-- Cycle Phase -->
+    <string name="menstrual_phase_content">
+        Menstruation is a woman’s monthly bleeding, often called your “period.” When you menstruate, your body discards the monthly buildup of the lining of your uterus (womb). Menstrual blood and tissue flow from your uterus through the small opening in your cervix and pass out of your body through your vagina.
+        \n\nDuring the monthly menstrual cycle, the uterus lining builds up to prepare for pregnancy. If you do not get pregnant, estrogen and progesterone hormone levels begin falling. Very low levels of estrogen and progesterone tell your body to begin menstruation.
+    </string>
+
+    <string name="the_follicular_phase_content">
+        This phase begins on the day you get your period and ends at ovulation (it overlaps with the menses phase and ends when you ovulate). During this time, the level of the hormone estrogen rises, which causes the lining of your uterus (the endometrium) to grow and thicken.
+        \n\nIn addition, another hormone — follicle-stimulating hormone (FSH) — causes follicles in your ovaries to grow. During days 10 to 14, one of the developing follicles will form a fully mature egg (ovum).
+        \n\nYour body temperature at rest provides clues about the various phases of your menstrual cycle. Knowing when you’re in the follicular phase can be useful if you’re trying to become pregnant.
+        \n\nTake your temperature each morning at the same time, right after you wake. During the follicular phase, your temperature should range between 97 and 97.6 degrees Fahrenheit. It should increase during ovulation and remain elevated when you’re in the luteal phase.
+    </string>
+
+    <string name="fertile_day_ovulation_content">
+        This phase occurs roughly at about day 14 in a 28-day menstrual cycle. A sudden increase in another hormone — luteinizing hormone (LH) — causes your ovary to release its egg. This event is ovulation.
+        \n\nAn egg only survives 12 to 24 hours after ovulation. Even though your egg only lives for 24 hours, sperm can live in your uterus for between three and five days. This means you can get pregnant from having sex from about five days before ovulation to one day after ovulation. If pregnancy is your goal, it’s better to have sperm already in your body when you ovulate. The highest probability of conception occurs when intercourse takes place one to two days before ovulation and on the day of ovulation.
+    </string>
+
+    <string name="luteal_phase_content">
+        This phase lasts from about day 15 to day 28. Your egg leaves your ovary and begins to travel through your fallopian tubes to your uterus. The level of the hormone progesterone rises to help prepare your uterine lining for pregnancy. If the egg becomes fertilized by sperm and attaches itself to your uterine wall (implantation), you become pregnant. If pregnancy doesn’t occur, estrogen and progesterone levels drop and the thick lining of your uterus sheds during your period.
+        \n\nSymptoms of the luteal phase resemble those that happen during PMS (premenstrual syndrome). Some signs that you’re in the luteal phase of your cycle include:
+        \n - Mood changes.
+        \n - Tender breasts.
+        \n - Bloating.
+        \n - Breaking out or acne.
+        \n - Changes in your appetite.
+    </string>
+
+    <!-- Information -->
+    <string name="cycle_definition">Cycle Definition</string>
+    <string name="menstrual_phase">Menstrual Phase</string>
+    <string name="follicular_phase">Follicular Phase</string>
+    <string name="ovulatory_phase">Ovulatory Phase</string>
+    <string name="luteal_phase">Luteal Phase</string>
+    <string name="health_problem">Health Problem</string>
+    <string name="the_follicular_phase">The follicular phase</string>
+    <string name="fertile_day_ovulation">Fertile day - Ovulation</string>
+    <string name="menstruation">Menstruation</string>
+    <string name="follicular">Follicular</string>
+    <string name="fertile_day">Fertile day</string>
+    <string name="fertile_window">Fertile Window</string>
+
+    <!-- Other -->
+    <string name="none">None</string>
+    <string name="home">Home</string>
+    <string name="setting">Setting</string>
+    <string name="calendar">Calendar</string>
+    <string name="insights">Insights</string>
+    <string name="information">Information</string>
+    <string name="icon">Icon</string>
+    <string name="language">Language</string>
+    <string name="done">Done</string>
+    <string name="languages">Languages</string>
+    <string name="edit_period">Edit Period</string>
+    <string name="are_you_sure_to_exit">Are you sure to exit?</string>
+    <string name="cancel">Cancel</string>
+    <string name="ok">Ok</string>
+    <string name="today">Today</string>
+    <string name="light">Light</string>
+    <string name="pad">Pad</string>
+    <string name="prenatal_vitamins">Prenatal vitamins</string>
+    <string name="see_all">See all</string>
+    <string name="information_menstruation">Menstruation</string>
+    <string name="trending_topics">Trending Topics</string>
+    <string name="source">Source</string>
+    <string name="how_are_you_feeling_today">How are you feeling today?</string>
+    <string name="period">Period</string>
+    <string name="medium">Medium</string>
+    <string name="heavy">Heavy</string>
+    <string name="super_heavy">Super Heavy</string>
+    <string name="happiness">Happiness</string>
+    <string name="calm">Calm</string>
+    <string name="tiredness">Tiredness</string>
+    <string name="moodiness">Moodiness</string>
+    <string name="mood_swings">Mood Swings</string>
+    <string name="depression">Depression</string>
+    <string name="sadness">Sadness</string>
+    <string name="tension">Tension</string>
+    <string name="anxiety">Anxiety</string>
+    <string name="breast_pain">Breast pain</string>
+    <string name="trouble_focusing">Trouble focusing</string>
+    <string name="bloating">Bloating</string>
+    <string name="headache">Headache</string>
+    <string name="nausea">Nausea</string>
+    <string name="diarrhea">Diarrhea</string>
+    <string name="dizziness">Dizziness</string>
+    <string name="vomiting">Vomiting</string>
+    <string name="constipation">Constipation</string>
+    <string name="backache">Backache</string>
+    <string name="cramps">Cramps</string>
+    <string name="forward">Forward</string>
+    <string name="until_period">Until Period</string>
+    <string name="luteal">Luteal</string>
+    <string name="pregnancy">Pregnancy</string>
+    <string name="protected_symptom">Protected</string>
+    <string name="unprotected_symptom">Unprotected</string>
+    <string name="cardio">Cardio</string>
+    <string name="yoga">Yoga</string>
+    <string name="pilates">Pilates</string>
+    <string name="gym">Gym</string>
+    <string name="others">Others</string>
+    <string name="tampon">Tampon</string>
+    <string name="cup">Cup</string>
+    <string name="panty">Panty</string>
+    <string name="good">Good</string>
+    <string name="hairloss">Hairloss</string>
+    <string name="dry">Dry</string>
+    <string name="oily">Oily</string>
+    <string name="painkiller">Painkiller</string>
+    <string name="prenatal_vitamin">Prenatal vitamins</string>
+    <string name="precription_medicattion">Prescription medication</string>
+    <string name="mood">Mood</string>
+    <string name="pain">Pain</string>
+    <string name="sex_life">Sex life</string>
+    <string name="exercise">Exercise</string>
+    <string name="sanitation">Sanitation</string>
+    <string name="hair">Hair</string>
+    <string name="medicine">Medicine</string>
+    <string name="Im_feeling">I\'m Feeling</string>
+    <string name="log_symptoms">Log symptoms</string>
+    <string name="monday">Monday</string>
+    <string name="mon">Mon</string>
+    <string name="tuesday">Tuesday</string>
+    <string name="tue">Tue</string>
+    <string name="wednesday">Wednesday</string>
+    <string name="wed">Wed</string>
+    <string name="thursday">Thursday</string>
+    <string name="thu">Thu</string>
+    <string name="friday">Friday</string>
+    <string name="fri">Fri</string>
+    <string name="saturday">Saturday</string>
+    <string name="sat">Sat</string>
+    <string name="sunday">Sunday</string>
+    <string name="sun">Sun</string>
+    <string name="the_amount_of_blood">The amount of blood in each person’s cycle varies</string>
+    <string name="backward">Backward</string>
+    <string name="weight">Weight</string>
+    <string name="input_your_weight_to_track_changes">Input your weight to track changes throughout your cycle and receive personalized health insights</string>
+    <string name="enter_your_weight">Enter your weight</string>
+    <string name="temperature">Temperature</string>
+    <string name="input_your_temperature_to_track_ovulation">Input your temperature to track ovulation patterns and better understand hormonal shifts</string>
+    <string name="the_imbalance_of_hormones_and_brain_chemicals">The imbalance of hormones and brain chemicals</string>
+    <string name="distressing_feeling_often">Distressing feeling often caused by intense or damaging stimuli</string>
+    <string name="take_note_of_your_sexual_life">Take note of your sexual life to better manage your cycles</string>
+    <string name="light_exercise_will_help">Light exercise will help improve your menstrual health</string>
+    <string name="the_hygiene_method_also_affects_menstrual_health">The hygiene method also affects menstrual health</string>
+    <string name="monitor_the_condition_of_your_hair">Monitor the condition of your hair to understand your body better</string>
+    <string name="various_types_of_medication">Various types of medication can also be the factors affecting daily life</string>
+    <string name="log_period">Log Period</string>
+    <string name="apply">Apply</string>
+    <string name="dont_miss_this">Don\'t miss this</string>
+    <string name="disclaimer">Disclaimer</string>
+    <string name="content_of_disclaimer">This information is meant for general knowledge and should not replace professional medical advice. SHE is not responsible for any decisions you make based on this content. It is provided as general guidance and not as a substitute for personalized medical consultation.</string>
+    <string name="articles">Articles</string>
+    <string name="day">Day</string>
+    <string name="days">Days</string>
+    <string name="of_period">Of Period</string>
+    <string name="low_chances">Low chances</string>
+    <string name="until_ovulation">Until Ovulation</string>
+    <string name="ovulation_day">Ovulation Day</string>
+    <string name="highest_chances">Highest chances</string>
+    <string name="log_the_first_day_of_your">Log the first day of your</string>
+    <string name="last_period_for_better_accuracy">last period for better accuracy</string>
+    <string name="reminder">Reminder</string>
+    <string name="term_of_service">Term of Services</string>
+    <string name="privacy">Privacy</string>
+    <string name="cycle">Cycle</string>
+    <string name="life_style">Life Style</string>
+    <string name="add_reminder">Add Reminder</string>
+    <string name="title">Title</string>
+    <string name="timings">Timings</string>
+    <string name="tag">Tag</string>
+    <string name="content_reminder">Contents of reminder</string>
+    <string name="enter_something">Enter something…</string>
+    <string name="enter_title_here">Enter title here</string>
+    <string name="edit_reminder">Edit Reminder</string>
+    <string name="logging_symptoms_in_the_future">Logging symptoms in the future is not allowed</string>
+    <string name="set_reminder">Set reminder</string>
+    <string name="reset_default">Reset Default</string>
+    <string name="yes">Yes</string>
+    <string name="are_you_sure_to_delete_this_reminder">Are you sure you want to delete this reminder</string>
+    <string name="are_you_sure_to_reset">Are you sure you want to reset this reminder to default?</string>
+    <string name="you_have_not_finish_adding">You haven\'t not finished adding this reminder. Add this reminder?</string>
+    <string name="check">Check</string>
+    <string name="average_period">Average Period</string>
+    <string name="average_cycle">Average Cycle</string>
+    <string name="current">Current</string>
+    <string name="no_symptoms_log">No symptoms log</string>
+    <string name="let_s_track_daily_and_get_to_know_your_body_better">Let’s track daily and get to know your body better</string>
+    <string name="cycle_length">Cycle Length</string>
+    <string name="your_symptoms">Your Symptoms</string>
+    <string name="cycle_duration">Cycle duration</string>
+    <string name="log_my_weight">Log my weight</string>
+    <string name="log_my_temperature">Log my temperature</string>
+    <string name="kindly_input_addtional_historical">Kindly input additional historical cycles to view your cycle patterns visually.</string>
+    <string name="the_analyzed_data_comprises_menstrual">The analyzed data comprises menstrual cycles, identified by determining the start and end dates of each cycle.</string>
+    <string name="notification">Notification</string>
+    <string name="receive_daily_health_insights_and_tips">Receive daily health insights and tips.</string>
+    <string name="alert">Alert</string>
+    <string name="get_reminders_for_upcoming_periods">Get reminders for upcoming periods, ovulation, and fertile days.</string>
+    <string name="settings">Settings</string>
+    <string name="until_ovulation_day">Until Ovulation Day</string>
+    <string name="high_chances">High chances</string>
+    <string name="enter_your_body_temperature">Enter your body temperature</string>
+
+    <string name="title_lock_screen_1"> Your period is approaching in %s days</string>
+    <string name="content_lock_screen_1">Stay prepared, prioritize self-care, and listen to your body.</string>
+    <string name="title_lock_screen_2">Hydration is key</string>
+    <string name="content_lock_screen_2">Keep your energy up and your body happy - don’t forget to drink water today!</string>
+    <string name="title_lock_screen_3">Understand Your Body</string>
+    <string name="content_lock_screen_3">Logging symptoms helps predict patterns &amp; manage your cycle better.</string>
+    <string name="notification_title_25">Your period is expected on %s!</string>
+    <string name="notification_content_25">Get your pads/tampons ready and take care of yourself!</string>
+    <string name="notification_title_2">Your period has started!</string>
+    <string name="notification_content_2">Stay hydrated, get some rest, and don’t forget to log your symptoms!</string>
+    <string name="notification_title_5">Good morning!</string>
+    <string name="notification_content_5">How are you feeling today? Log your symptoms to track your cycle better!</string>
+    <string name="period_log_2_title">Feeling tired?</string>
+    <string name="period_log_2_desc">Eat iron-rich foods like spinach, nuts, or dark chocolate to keep your energy levels up!</string>
+    <string name="period_log_3_title">Time to unwind!</string>
+    <string name="period_log_3_desc">A warm bath or light meditation can help you relax and sleep better during your period.</string>
+    <string name="late_period_title">Your period is %s days late!</string>
+    <string name="late_period_desc">Stress, diet changes, or other factors might be affecting your cycle. Log your symptoms to stay informed!</string>
+    <string name="period_ending_title">Is your period over?</string>
+    <string name="period_ending_desc">Update your cycle info to get more accurate predictions! If it\'s lasting longer than usual, consider checking with a doctor.</string>
+    <string name="notification_title_9">Your period is %s days late!</string>
+    <string name="notification_content_9">Log your details to track changes. If needed, check in with your doctor for advice.</string>
+    <string name="notification_content_1">Your body is working hard, and you deserve extra care. Log your symptoms to track changes.</string>
+    <string name="notification_title_3">Cramping? Feeling low on energy?</string>
+    <string name="notification_content_3">Tap to learn why this happens and how to feel better!</string>
+    <string name="notification_title_4">Time to relax.</string>
+    <string name="notification_content_4">A warm bath or a light stretch can help ease cramps before bed. How are you feeling?</string>
+    <string name="notification_title_6">How’s your period today?</string>
+    <string name="notification_content_6">Logging helps you see patterns &amp; prepare better next time!</string>
+    <string name="notification_title_7">You’re strong!</string>
+    <string name="notification_content_7">Log how you’re feeling to help track your cycle better.</string>
+    <string name="notification_title_8">Feeling a little better today? Your body is adjusting!</string>
+    <string name="notification_content_8">Log your symptoms to track how long your period lasts</string>
+    <string name="notification_title_10">Almost there! Is your period ending?</string>
+    <string name="notification_content_10">Logging helps make predictions more accurate.</string>
+    <string name="notification_title_11">Quick Reminder</string>
+    <string name="notification_content_11">If you\'re still in a period, log it now. If not, mark it as ended to enhance prediction accuracy.</string>
+    <string name="notification_title_12">Reminder</string>
+    <string name="notification_content_12">We noticed you haven’t logged your period. If no action is taken, we will automatically end this period.</string>
+    <string name="notification_title_13">Energy boost!</string>
+    <string name="notification_content_13">Your hormones are rising, and so is your motivation! Tap to learn how to use this phase wisely.</string>
+    <string name="notification_title_14">Noticing any changes?</string>
+    <string name="notification_content_14">Energy levels, skin, digestion? Log your symptoms to track patterns!</string>
+    <string name="notification_title_15">Noticed better focus today?</string>
+    <string name="notification_content_15">Tracking your cycle can help you find your most productive days!</string>
+    <string name="notification_title_16">Brainpower boost!</string>
+    <string name="notification_content_16">Your mind is sharp, and curiosity is peaking—dive into learning, problem-solving, or brainstorming today!</string>
+    <string name="notification_title_17">Feeling lighter, clearer, or more energetic?</string>
+    <string name="notification_content_17">Log these changes to see how your cycle supports you!</string>
+    <string name="notification_title_18">Radiate confidence!</string>
+    <string name="notification_content_18">Your body is working in sync with your hormones—embrace the glow and feel unstoppable today!</string>
+    <string name="notification_title_19">Changes in mood or energy? Maybe even skin?</string>
+    <string name="notification_content_19">Log your symptoms for better predictions!</string>
+    <string name="notification_title_20">Ready to track?</string>
+    <string name="notification_content_20">Logging your symptoms helps identify your ovulation window.</string>
+    <string name="notification_title_21">Noticing mood changes or cravings?</string>
+    <string name="notification_content_21">Logging now helps predict next cycle’s PMS!</string>
+    <string name="notification_title_22">Sugar cravings hitting hard?</string>
+    <string name="notification_content_22">Here’s why and how to manage them!</string>
+    <string name="notification_title_23">Your period is near… but how do you know exactly when it will start?</string>
+    <string name="notification_content_23">Here are the signs!</string>
+    <string name="notification_title_24">Reflect &amp; Reset!</string>
+    <string name="notification_content_24">Log how you felt this cycle to make next month even better!</string>
+    <string name="notification_title_26">Your body is incredible.</string>
+    <string name="notification_content_26">Give it the love and care it deserves today. \"%s\" is always with you.</string>
+    <string name="notification_title_27">Ever wondered why some periods are heavier than others?</string>
+    <string name="notification_content_27">Find out what’s normal!</string>
+    <string name="notification_title_28">Feel Better on Your Period!</string>
+    <string name="notification_content_28">Eat right to ease cramps &amp; boost energy. Tap to learn more! 👉</string>
+    <string name="notification_title_29">You’re blooming with energy and potential</string>
+    <string name="notification_content_29">Embrace the fresh start today! "%s" is here to guide you.</string>
+    <string name="notification_title_30">Want to improve workouts?</string>
+    <string name="notification_content_30">Your body is primed for strength training—tap for expert tips!</string>
+    <string name="notification_title_31">You are radiant, strong, and full of life.</string>
+    <string name="notification_content_31">Trust your instincts and shine! \"%s\" celebrates you today.</string>
+    <string name="notification_title_32">Feeling extra flirty? Science explains why!</string>
+    <string name="notification_content_32">Tap to discover how ovulation affects attraction.</string>
+    <string name="notification_title_33">Your feelings are valid.</string>
+    <string name="notification_content_33">Be kind to yourself and prioritize rest when needed. \"%s\" understands and supports you.</string>
+    <string name="notification_title_34">Feeling bloated or irritable?</string>
+    <string name="notification_content_34">Try this 5-minute relaxation trick for instant relief!</string>
+
+    <string name="stay_on_track">Stay on track</string>
+    <string name="view_more">View More</string>
+    <string name="close">Close</string>
+    <string name="record">Record</string>
+    <string name="track_now">Track now</string>
+    <string name="end_log">End log</string>
+    <string name="explore">Explore</string>
+    <string name="until_fertile_window">Until Fertile Window</string>
+    <string name="no">No</string>
+    <string name="select_language">Select language</string>
+    <string name="next">Next</string>
+    <string name="confirm">Confirm</string>
+    <string name="ovulation">Ovulation</string>
+    <string name="i_dont_remember">I don\'t remember</string>
+    <string name="request_birth_title">What’s your year of birth?</string>
+    <string name="onboard_1_title">Monitor Period Cycle</string>
+    <string name="onboard_1_content">Monitor menstrual cycles, record daily symptoms</string>
+    <string name="let_go">Let’s go</string>
+    <string name="request_cycle_length_title">How many days does\nyour cycle last average?</string>
+    <string name="request_last_period">What’s the date of your\nlast period?</string>
+    <string name="track_my_period">Track my period</string>
+    <string name="track_ovulation_fertility">Track ovulation/fertility</string>
+    <string name="manage_pm_symptoms">Manage PMS symptoms</string>
+    <string name="understand_my_cycle">Understand my cycle</string>
+    <string name="pregnancy_planning_or_avoidance">Pregnancy planning or avoidance</string>
+    <string name="general_health_insights">General health insights</string>
+    <string name="whats_bring_you_heres">What’s bring you here?</string>
+    <string name="you_can_choose_more_1">You can choose more than 1</string>
+    <string name="start">Start</string>
+    <string name="please_select_at_least_1_option">Please select at least 1 option</string>
+    <string name="hang_tight">Hang tight! Loading with a quick ad</string>
+    <string name="disclaimer_content">This app provides general information and estimates based on the data you input. It is not a substitute for professional medical advice, diagnosis, or treatment. Results, including period and ovulation predictions, may vary and should not be relied upon for contraceptive purposes.\n\ \n\For medical concerns or specific health advice, please consult a qualified healthcare provider. Use of this app is at your own discretion and risk.</string>
+    <string name="flag">Flag</string>
+    <string name="english">English</string>
+    <string name="french">French</string>
+    <string name="japanese">Japanese</string>
+    <string name="korean">Korean</string>
+    <string name="hindi">Hindi</string>
+    <string name="portuguese">Portuguese</string>
+    <string name="turkish">Turkish</string>
+    <string name="spanish">Spanish</string>
+    <string name="we_are_all_set">We are all set!</string>
+    <string name="olyns_always_by_your_side">Olyn’s always by your side. \nPlease log your period for exactly prediction</string>
+    <string name="skip_for_now">Skip for now</string>
+    <string name="log_your_period">Log your Period</string>
+    <string name="please_log_your_period_for_more">Please log your period for more\n exactly prediction!</string>
+    <string name="swipe_to_next">Swipe to next</string>
+    <string name="please_select_at_least_one_symptom">Please select at least one symptom</string>
+    <string name="this_action_can_contain_ads">This action may contain advertising</string>
+    <string name="onboard_2_title">Helpful Insights</string>
+    <string name="onboard_2_content"><![CDATA[Get personalized insights based on your period & symptoms logs]]></string>
+    <string name="onboard_3_title">Always By You</string>
+    <string name="period_tracker">Period Tracker</string>
+    <string name="one_of_the_most_accurate_cycle">One of the most accurate cycle tracking apps</string>
+    <string name="track_smarter_not_harder">Track smarter, not harder</string>
+    <string name="banner_home">Congrats! You’ve reached week 10</string>
+    <string name="due_date">Due date</string>
+    <string name="first_trimester">First Trimester</string>
+    <string name="your_appointment">Your Appointment</string>
+    <string name="plan_your_prenatal_visits">Plan your prenatal visits</string>
+    <string name="your_timeline">Your timeline</string>
+    <string name="ovulation_and_fertilization">Ovulation and Fertilization</string>
+    <string name="monitoring_your_baby_movement">Monitoring Your Baby’s Movement</string>
+    <string name="get_ready_with_a_birth_plan">Get Ready with a Birth Plan</string>
+    <string name="baby_head_engaged">Baby’s head Engaged</string>
+    <string name="are_you_feeling_any_pain_fatigue_or_other_symptoms">Are you feeling any pain, fatigue, or other symptoms?</string>
+    <string name="onboard_3_content">Stay on top of your cycle with daily period and symptom tracking</string>
+    <string name="size">Size</string>
+    <string name="avocado">Avocado</string>
+    <string name="range_analysis">Range Analysis</string>
+    <string name="low">Low</string>
+    <string name="normal">Normal</string>
+    <string name="high">High</string>
+</resources>
