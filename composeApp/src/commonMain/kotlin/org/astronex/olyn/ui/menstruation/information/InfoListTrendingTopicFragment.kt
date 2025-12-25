@@ -4,15 +4,14 @@ import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.runtime.Composable
-import androidx.compose.runtime.collectAsState
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import compose_multiplatform.composeapp.generated.resources.Res
 import compose_multiplatform.composeapp.generated.resources.ic_back
 import compose_multiplatform.composeapp.generated.resources.trending_topics
 import org.astronex.olyn.domain.enums.InformationItem
-import org.astronex.olyn.ui.core.CoreLayout
-import org.astronex.olyn.ui.core.CoreTopBar
+import org.astronex.olyn.ui.component.CoreLayout
+import org.astronex.olyn.ui.component.CoreTopBar
 import org.astronex.olyn.ui.menstruation.information.component.InformationTrendingTopicListLayout
 import org.astronex.olyn.ui.theme.customizedTextStyle
 import org.jetbrains.compose.resources.stringResource

@@ -37,7 +37,7 @@ fun HomeTopBar(
         modifier = modifier
             .fillMaxWidth()
             .background(color = Color.Transparent)
-            .padding(16.dp)
+            .padding(start = 16.dp, end = 16.dp, top = 32.dp, bottom = 16.dp)
             .statusBarsPadding()
     ) {
         // button switch mode

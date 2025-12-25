@@ -4,7 +4,6 @@ import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.runtime.Composable
-import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.setValue
@@ -14,12 +13,11 @@ import org.astronex.olyn.ui.menstruation.information.component.InformationCatego
 import compose_multiplatform.composeapp.generated.resources.Res
 import compose_multiplatform.composeapp.generated.resources.ic_back
 import org.astronex.olyn.domain.enums.Category
-import org.astronex.olyn.ui.core.CoreLayout
-import org.astronex.olyn.ui.core.CoreTopBar
+import org.astronex.olyn.ui.component.CoreLayout
+import org.astronex.olyn.ui.component.CoreTopBar
 import org.astronex.olyn.ui.theme.customizedTextStyle
 import org.jetbrains.compose.resources.stringResource
 import org.jetbrains.compose.ui.tooling.preview.Preview
-import kotlin.text.category
 
 @Composable
 fun InformationItemListScreen(

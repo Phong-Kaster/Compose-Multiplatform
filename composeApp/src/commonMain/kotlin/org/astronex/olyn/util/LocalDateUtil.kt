@@ -31,7 +31,7 @@ object LocalDateUtil {
     val formatterDDMMM = LocalDate.Format(
         block = {
             monthNumber()
-            char(' ')
+            char(':')
             day(padding = Padding.ZERO)
         }
     )

@@ -16,14 +16,11 @@ import compose_multiplatform.composeapp.generated.resources.Res
 import compose_multiplatform.composeapp.generated.resources.apply
 import compose_multiplatform.composeapp.generated.resources.ic_back
 import compose_multiplatform.composeapp.generated.resources.language
-import compose_multiplatform.composeapp.generated.resources.languages
-import compose_multiplatform.composeapp.generated.resources.log_symptoms
-import compose_multiplatform.composeapp.generated.resources.settings
 import org.astronex.olyn.changeLanguage
 import org.astronex.olyn.domain.enums.Language
 import org.astronex.olyn.ui.component.ButtonBottomBar
-import org.astronex.olyn.ui.core.CoreLayout
-import org.astronex.olyn.ui.core.CoreTopBar
+import org.astronex.olyn.ui.component.CoreLayout
+import org.astronex.olyn.ui.component.CoreTopBar
 import org.astronex.olyn.ui.menstruation.setting.component.LanguageSelector
 import org.astronex.olyn.ui.theme.customizedTextStyle
 import org.jetbrains.compose.resources.stringResource

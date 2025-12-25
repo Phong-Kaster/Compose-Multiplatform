@@ -32,18 +32,15 @@ import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
 import compose_multiplatform.composeapp.generated.resources.Res
 import compose_multiplatform.composeapp.generated.resources.this_action_can_contain_ads
-import org.astronex.olyn.injection.appModule
-import org.astronex.olyn.ui.core.CoreLayout
+import org.astronex.olyn.ui.component.CoreLayout
 import org.astronex.olyn.ui.splash.component.GradientProgressIndicator
 import org.astronex.olyn.ui.splash.component.SplashAnimation1
 import org.astronex.olyn.ui.splash.component.SplashAnimation2
 import org.astronex.olyn.ui.splash.component.SplashAnimation3
 import org.astronex.olyn.ui.theme.SplashBrushBackground
 import org.astronex.olyn.ui.theme.customizedTextStyle
-import org.astronex.olyn.util.platform.logcat
 import org.jetbrains.compose.resources.stringResource
 import org.jetbrains.compose.ui.tooling.preview.Preview
-import org.koin.compose.KoinApplicationPreview
 import org.koin.compose.viewmodel.koinViewModel
 
 @Composable

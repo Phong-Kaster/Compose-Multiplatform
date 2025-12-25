@@ -17,8 +17,8 @@ import compose_multiplatform.composeapp.generated.resources.Res
 import compose_multiplatform.composeapp.generated.resources.articles
 import compose_multiplatform.composeapp.generated.resources.trending_topics
 import org.astronex.olyn.domain.enums.Category
-import org.astronex.olyn.ui.core.CoreLayout
-import org.astronex.olyn.ui.core.CoreTopBar
+import org.astronex.olyn.ui.component.CoreLayout
+import org.astronex.olyn.ui.component.CoreTopBar
 import org.astronex.olyn.ui.menstruation.home.component.HomeTrendingArticle
 import org.astronex.olyn.ui.theme.customizedTextStyle
 import org.jetbrains.compose.resources.stringResource

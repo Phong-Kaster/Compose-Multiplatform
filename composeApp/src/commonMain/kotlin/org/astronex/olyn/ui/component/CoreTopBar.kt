@@ -1,4 +1,4 @@
-package org.astronex.olyn.ui.core
+package org.astronex.olyn.ui.component
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Box

@@ -1,12 +1,11 @@
 package org.astronex.olyn.ui.menstruation.information
 
 import androidx.compose.foundation.background
-import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.collectAsState
 import androidx.compose.ui.Modifier
-import org.astronex.olyn.ui.core.CoreBottomBar
-import org.astronex.olyn.ui.core.CoreLayout
+import org.astronex.olyn.ui.component.CoreBottomBar
+import org.astronex.olyn.ui.component.CoreLayout
 import org.astronex.olyn.ui.shared.ComposeLifecycle
 import org.astronex.olyn.ui.theme.SplashBrushBackground
 import org.jetbrains.compose.ui.tooling.preview.Preview

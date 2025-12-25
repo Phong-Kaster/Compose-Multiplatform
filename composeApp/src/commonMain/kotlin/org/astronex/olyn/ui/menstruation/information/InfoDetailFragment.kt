@@ -2,7 +2,6 @@ package org.astronex.olyn.ui.menstruation.information
 
 import androidx.compose.foundation.background
 import androidx.compose.runtime.Composable
-import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.setValue
@@ -15,11 +14,8 @@ import org.astronex.olyn.ui.menstruation.information.component.InformationItemDe
 import org.astronex.olyn.domain.enums.CycleDefinitionItem
 import org.astronex.olyn.domain.enums.InformationItem
 import org.astronex.olyn.ui.component.CoreTopBar2
-import org.astronex.olyn.ui.core.CoreLayout
-import org.astronex.olyn.ui.core.CoreTopBar
+import org.astronex.olyn.ui.component.CoreLayout
 import org.astronex.olyn.ui.theme.customizedTextStyle
-import org.jetbrains.compose.resources.painterResource
-import org.jetbrains.compose.resources.stringResource
 import org.jetbrains.compose.ui.tooling.preview.Preview
 
 @Composable
