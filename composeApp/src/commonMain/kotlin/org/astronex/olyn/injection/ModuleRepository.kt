@@ -8,6 +8,8 @@ import org.astronex.olyn.data.repository.MenstruationRepository
 import org.astronex.olyn.data.repository.SettingRepository
 import org.astronex.olyn.data.repository.SymptomDiaryRepository
 import org.astronex.olyn.data.repository.UserInfoRepository
+import org.astronex.olyn.data.repository.impl.PostRepositoryImpl
+import org.astronex.olyn.domain.repository.PostRepository
 import org.koin.core.qualifier.named
 import org.koin.dsl.module
 
@@ -32,11 +34,11 @@ val repositoryModule = module {
         )
     }
 
-    // Menstruation Repository
-    single<MenstruationRepository> {
-        MenstruationRepository(
+    // Remote CRUD template (interface in domain, impl in data)
+    single<PostRepository> {
+        PostRepositoryImpl(
             ioDispatcher = get(qualifier = named(name = Constant.IO)),
-            menstruationDatabase = get()
+            api = get(),
         )
     }
 

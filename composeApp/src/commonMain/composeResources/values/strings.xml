@@ -515,6 +515,8 @@ The signs that your period is coming can vary from person to person and from cyc
     <string name="alert">Alert</string>
     <string name="get_reminders_for_upcoming_periods">Get reminders for upcoming periods, ovulation, and fertile days.</string>
     <string name="settings">Settings</string>
+    <string name="api_skeleton_demo" translatable="false">API skeleton (Ktor demo)</string>
+    <string name="api_skeleton_screen_title" translatable="false">API skeleton</string>
     <string name="until_ovulation_day">Until Ovulation Day</string>
     <string name="high_chances">High chances</string>
     <string name="enter_your_body_temperature">Enter your body temperature</string>

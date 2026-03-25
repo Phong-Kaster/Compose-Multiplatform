@@ -19,6 +19,8 @@ import compose_multiplatform.composeapp.generated.resources.ic_disclaimer_settin
 import compose_multiplatform.composeapp.generated.resources.ic_language
 import compose_multiplatform.composeapp.generated.resources.ic_privacy
 import compose_multiplatform.composeapp.generated.resources.ic_reminder
+import compose_multiplatform.composeapp.generated.resources.api_skeleton_demo
+import compose_multiplatform.composeapp.generated.resources.ic_information
 import compose_multiplatform.composeapp.generated.resources.ic_term_of_service
 import compose_multiplatform.composeapp.generated.resources.languages
 import compose_multiplatform.composeapp.generated.resources.privacy
@@ -39,9 +41,11 @@ import org.jetbrains.compose.ui.tooling.preview.Preview
 @Composable
 fun SettingScreen(
     onSettingLanguage: () -> Unit = {},
+    onOpenApiSkeleton: () -> Unit = {},
 ) {
     SettingLayout(
         openLanguage = onSettingLanguage,
+        openApiSkeleton = onOpenApiSkeleton,
         openReminder = { /*TODO*/ },
         openTermOfService = { openWebsite(url = "https://astronex.ai/privacy/") },
         openPrivacy = { openWebsite(url = "https://astronex.ai/privacy/") },
@@ -52,6 +56,7 @@ fun SettingScreen(
 @Composable
 private fun SettingLayout(
     openLanguage: () -> Unit = {},
+    openApiSkeleton: () -> Unit = {},
     openReminder: () -> Unit = {},
     openTermOfService: () -> Unit = {},
     openPrivacy: () -> Unit = {},
@@ -95,6 +100,15 @@ private fun SettingLayout(
                             onClick = openLanguage,
                         )
                     }
+                }
+
+                item {
+                    SettingItem(
+                        modifier = Modifier.fillMaxWidth(),
+                        nameId = Res.string.api_skeleton_demo,
+                        iconId = Res.drawable.ic_information,
+                        onClick = openApiSkeleton,
+                    )
                 }
 
                 item {
@@ -145,6 +159,7 @@ private fun SettingLayout(
 private fun PreviewSettingScreen() {
     SettingLayout(
         openLanguage = {},
+        openApiSkeleton = {},
         openReminder = {},
         openTermOfService = {},
         openPrivacy = {},

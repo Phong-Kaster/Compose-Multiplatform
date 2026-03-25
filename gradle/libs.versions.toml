@@ -23,6 +23,7 @@ ksp = "2.2.10-2.0.2"
 datastorePreferencesCore = "1.1.7"
 room = "2.7.2"
 sqlite = "2.5.2"
+ktor = "3.0.3"
 
 [libraries]
 
@@ -59,6 +60,12 @@ androidx-datastore-preferences = { module = "androidx.datastore:datastore-prefer
 sqlite-bundled = { module = "androidx.sqlite:sqlite-bundled", version.ref = "sqlite" }
 roomDatabase-runtime = { module = "androidx.room:room-runtime", version.ref = "room" }
 roomDatabase-compiler = { module = "androidx.room:room-compiler", version.ref = "room" }
+# Ktor Client (KMP) — set API base URL in AppConfig (core/config)
+ktor-client-core = { module = "io.ktor:ktor-client-core", version.ref = "ktor" }
+ktor-client-content-negotiation = { module = "io.ktor:ktor-client-content-negotiation", version.ref = "ktor" }
+ktor-client-serialization-kotlinx-json = { module = "io.ktor:ktor-serialization-kotlinx-json", version.ref = "ktor" }
+ktor-client-android = { module = "io.ktor:ktor-client-android", version.ref = "ktor" }
+ktor-client-darwin = { module = "io.ktor:ktor-client-darwin", version.ref = "ktor" }
 
 [plugins]
 androidApplication = { id = "com.android.application", version.ref = "agp" }

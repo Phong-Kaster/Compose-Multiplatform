@@ -16,6 +16,9 @@ sealed interface ComposeDestination {
     @Serializable data object Setting : ComposeDestination
     @Serializable data object SettingLanguage : ComposeDestination
 
+    /** Template: remote CRUD + Ktor demo (JSONPlaceholder). */
+    @Serializable data object SkeletonApiDemo : ComposeDestination
+
     @Serializable data class InformationDetail (val infoId: String) : ComposeDestination
     @Serializable data class InformationSeeAll (val categoryId: String) : ComposeDestination
 
@@ -34,4 +37,5 @@ fun NavDestination?.isRoute(dest: ComposeDestination): Boolean = when (dest) {
     is ComposeDestination.SettingLanguage -> this?.hasRoute<ComposeDestination.SettingLanguage>() == true
     is ComposeDestination.InformationDetail -> this?.hasRoute<ComposeDestination.InformationDetail>() == true
     is ComposeDestination.InformationSeeAll -> this?.hasRoute<ComposeDestination.InformationSeeAll>() == true
+    is ComposeDestination.SkeletonApiDemo -> this?.hasRoute<ComposeDestination.SkeletonApiDemo>() == true
 }

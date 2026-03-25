@@ -1,0 +1,35 @@
+---
+description: Kotlin/KMP coding conventions for this codebase
+globs: "**/*.kt"
+alwaysApply: false
+---
+
+# Kotlin conventions
+
+## Style
+
+- Match **existing** naming, packages, and imports in the file you edit.
+- Use **`StateFlow` + `MutableStateFlow`** in ViewModels with `viewModelScope` for async work (see `HomeViewModel`, `SkeletonApiViewModel`).
+- Repositories take **`CoroutineDispatcher`** (Koin `named(Constant.IO)`) and use **`withContext(ioDispatcher)`** for suspend APIs.
+
+## Layers
+
+- **DTOs** (`@Serializable`) live under `data/remote/dto/`; **domain models** under `domain/model/`; map with small mappers in `data/remote/mapper/`.
+- **API classes** are thin: `HttpClient` calls only, no UI logic (`data/remote/api/`). Paths live in **`ApiPath`** (or similar), not stringly scattered.
+- **Remote repository pattern:** interface in **`domain/repository/`**, implementation in **`data/repository/impl/`** (`*RepositoryImpl`).
+- Use **`Resource<T>`** (`common/Resource.kt`) with **`safeApiCall`** / **`safeApiCallFlow`** (`data/remote/util/SafeApiCall.kt`) for remote errors; avoid empty catch blocks.
+
+## Multiplatform
+
+- Use **`expect`/`actual`** for platform-specific pieces (e.g. Ktor engine in `network/HttpEngine*.kt`). Keep common code in `commonMain`.
+- Android-only needs: `androidMain`; iOS-only: `iosMain`.
+
+## Koin
+
+- Register new singletons in the appropriate module (`ModuleNetwork`, `ModuleRepository`, etc.); **avoid duplicate `single<T>`** bindings for the same type.
+- ViewModels: `viewModel { ... }` in `ModuleViewModel.kt`.
+
+## Anti-patterns here
+
+- Do not add a second HTTP client library unless replacing Ktor.
+- Do not move generated Compose resources paths by hand; edit `composeResources` and rebuild.

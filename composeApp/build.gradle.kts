@@ -51,6 +51,8 @@ kotlin {
 
             // Android-specific Koin integration
             implementation(libs.koin.android)
+
+            implementation(libs.ktor.client.android)
         }
         commonMain.dependencies {
             // Configure the commonMain source set
@@ -99,6 +101,14 @@ kotlin {
             // # KotlinX multiplatform date/time library - https://github.com/Kotlin/kotlinx-datetime
             implementation(libs.kotlinx.datetime)
 
+            // Ktor HTTP client (common) — engines are per-platform below
+            implementation(libs.ktor.client.core)
+            implementation(libs.ktor.client.content.negotiation)
+            implementation(libs.ktor.client.serialization.kotlinx.json)
+
+        }
+        iosMain.dependencies {
+            implementation(libs.ktor.client.darwin)
         }
         commonTest.dependencies {
             implementation(libs.kotlin.test)

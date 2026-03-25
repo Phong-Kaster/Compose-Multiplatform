@@ -28,6 +28,7 @@ import org.astronex.olyn.ui.menstruation.insight.InsightScreen
 import org.astronex.olyn.ui.menstruation.onboard.OnboardScreen
 import org.astronex.olyn.ui.menstruation.setting.SettingLanguageScreen
 import org.astronex.olyn.ui.menstruation.setting.SettingScreen
+import org.astronex.olyn.ui.skeleton.SkeletonApiScreen
 import org.astronex.olyn.ui.splash.SplashScreen
 
 
@@ -205,9 +206,18 @@ fun ComposeNavGraph() {
                         exitTransition = { fadeOut(tween(300)) }
                     ) {// ----- Setting Screen
                         SettingScreen(
-                            onSettingLanguage = { navController.navigate(route = ComposeDestination.SettingLanguage) }
+                            onSettingLanguage = { navController.navigate(route = ComposeDestination.SettingLanguage) },
+                            onOpenApiSkeleton = {
+                                navController.navigate(route = ComposeDestination.SkeletonApiDemo)
+                            },
                         )
                     }// end Setting
+
+                    composable<ComposeDestination.SkeletonApiDemo> {
+                        SkeletonApiScreen(
+                            onBack = { navController.popBackStack() },
+                        )
+                    }
 
                     composable<ComposeDestination.SettingLanguage> {// ----- Setting Language Screen
                         SettingLanguageScreen(

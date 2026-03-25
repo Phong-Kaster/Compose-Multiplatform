@@ -1,0 +1,45 @@
+---
+description: KMP skeleton — Clean Architecture-style layers aligned with this repo (not Fragment-based)
+alwaysApply: true
+---
+
+# Compose Multiplatform skeleton — project rules
+
+## Purpose
+Reusable **Kotlin Multiplatform** app (Android + iOS) with **Compose Multiplatform**. Prefer clear layers and config over one-off hacks. This file adapts “Android skeleton” ideas to **this** codebase (not Fragment Navigation).
+
+## Core rules
+- Write code that is easy to extend and copy into new apps.
+- Prefer clarity over micro-optimizations.
+- Document non-trivial types and functions with a short KDoc (especially repositories, use cases, and networking).
+- Use **use cases** (`domain/usecase/`) for multi-step or heavy domain work; name by intent (e.g. `GenerateCycleUseCase`).
+
+## Naming & style
+- **Repository interfaces:** `XxxRepository` in `domain/repository/`. **Implementations:** `XxxRepositoryImpl` in `data/repository/impl/`.
+- **HTTP facades:** `XxxApi` in `data/remote/api/` (see `PostApi`, `ApiPath`). **DTOs:** `*Dto` in `data/remote/dto/` (group in subpackages if many).
+- Shared **extensions/utilities:** prefer `common/` (e.g. `common/Resource.kt`). UI-only helpers stay under `ui/`.
+- **Lambdas:** prefer explicit parameter names when it aids readability (e.g. `defaultValue = { index -> … }`).
+- **MutableStateFlow / UI state:** prefer `_uiState.value = _uiState.value.copy(...)` over `update { }` for state writes in ViewModels (consistent, easy to debug).
+
+## Tech stack (this repo)
+- **Language:** Kotlin (common + platform source sets)
+- **UI:** Compose Multiplatform + Material3
+- **DI:** Koin (`injection/*Module.kt`)
+- **Navigation:** Type-safe Compose destinations (`navigation/ComposeDestination.kt`, `ComposeNavGraph.kt`)
+- **Network:** Ktor Client (`network/`, `data/remote/api/`)
+- **Local:** Room, DataStore
+- **Config:** `core/config/AppConfig.kt` (API base URL, HTTP timeouts); `common/Constant.kt` (app constants)
+
+## Package layout (KMP)
+- **domain/** — `model/`, `repository/` (interfaces), `usecase/`. No Ktor/Room types.
+- **data/** — `remote/api/` (`ApiPath`, `*Api`), `remote/dto/`, `remote/mapper/`, `remote/util/` (`safeApiCall`, `safeApiCallFlow`), `repository/impl/`, `database/`, `datastore/`.
+- **core/** — `config/` (`AppConfig`), shared non-UI infrastructure.
+- **common/** — `Resource`, `Constant`, shared types.
+- **network/** — Ktor engine expect/actual, `HttpClientFactory`.
+- **ui/** — screens, ViewModels, components, theme.
+- **injection/** — Koin modules (`appModule()` composes network, datastore, database, repository, viewModel).
+
+## API & data
+- Put relative paths in **`data/remote/api/ApiPath.kt`**; base URL in **`AppConfig.apiBaseUrl`**.
+- New resource: add `*Api` + DTOs + mapper + **`domain.repository.XxxRepository`** + **`XxxRepositoryImpl`**; register in `ModuleNetwork` / `ModuleRepository`.
+- Wrap remote calls with **`safeApiCall`** / **`safeApiCallFlow`**; expose **`Resource<T>`** (`Loading` / `Success` / `Error`). Map errors to UI strings in ViewModels or small UI mappers (no `Context` in `commonMain` — use platform `actual` if you need localized system messages).

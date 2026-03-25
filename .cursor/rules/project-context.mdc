@@ -1,0 +1,36 @@
+---
+description: Compose Multiplatform app context, stack, and skeleton goals
+alwaysApply: true
+---
+
+# Project context
+
+This repo is a **Kotlin Multiplatform (KMP)** app with **Compose Multiplatform**, not a greenfield experiment. Treat it as a **skeleton/template** for future apps: patterns should stay copy-paste friendly and easy to extend.
+
+## Stack
+
+- **UI**: Compose Multiplatform, Material3, type-safe navigation (`ComposeDestination` sealed interface + `NavHost` composables).
+- **DI**: Koin (`appModule()` in `injection/`, modules for datastore, database, network, repository, viewModel).
+- **Local data**: Room (KSP), DataStore Preferences.
+- **Remote**: Ktor Client (`commonMain` + Android engine + Darwin for iOS), `kotlinx.serialization` for JSON.
+- **Package root**: `org.astronex.olyn`.
+
+## Where things live
+
+| Area | Location |
+|------|----------|
+| Screens / ViewModels | `composeApp/src/commonMain/kotlin/.../ui/` |
+| Navigation routes | `navigation/ComposeDestination.kt`, `ComposeNavGraph.kt` |
+| Repositories | `data/repository/` (local) + `data/repository/impl/` (e.g. `PostRepositoryImpl`) |
+| Repository contracts | `domain/repository/` (interfaces only) |
+| Remote API + DTOs | `data/remote/` (`api/` + `ApiPath`, `dto/`, `mapper/`, `util/` for `safeApiCall`) |
+| Ktor client | `network/` (`HttpClientFactory`, `HttpEngine` expect/actual) |
+| App / HTTP config | `core/config/AppConfig.kt` |
+| Platform hooks | `Platform.kt` + `Platform.android.kt` / `Platform.ios.kt` |
+| Strings / drawables | `commonMain/composeResources/` |
+
+## When adding features
+
+- Prefer **small, focused diffs**; do not refactor unrelated modules.
+- New REST resources: copy the **posts** pattern (`ApiPath`, `PostApi`, `PostRepository` + `PostRepositoryImpl`, DTOs, mapper, `safeApiCall`, Koin registration).
+- New screens: add a `ComposeDestination` case, register in `ComposeNavGraph`, inject ViewModels via `ModuleViewModel.kt`.
